@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>A3SH_Covid_Response_Page_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A3SH_Covid_Response_Page_URL</shortDescription>
+        <value>https://smarthomesurvey.secure.force.com/A3SH_CovidEmailResponse?saId=</value>
+    </labels>
+    <labels>
+        <fullName>A3SH_CryptoKey</fullName>
+        <categories>Don&apos;t Change</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A3SH_CryptoKey</shortDescription>
+        <value>a3sh@Crypt!Encry</value>
+    </labels>
+    <labels>
+        <fullName>A3_Dispatch_Policy_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A3 Dispatch Policy Id</shortDescription>
+        <value>a2R6g000000K5EMEA0</value>
+    </labels>
+    <labels>
+        <fullName>Case_Installation_RecordType_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Installation RecordType Id</shortDescription>
+        <value>0124v000001yTRJ</value>
+    </labels>
+    <labels>
+        <fullName>Instance_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instance URL</shortDescription>
+        <value>https://a3smarthome.lightning.force.com/lightning/</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Body_ChatWindowAgent_04I4v000000oLkZ_2914661</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Body_ChatWindowAgent_04I4v000000oLkZ_2914661</shortDescription>
+        <value>AAA Smart Home</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_ExtendedHeader_ChatStateHeaderGreeting_04I4v000000oLkZ_6420023</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_ExtendedHeader_ChatStateHeaderGreeting_04I4v000000oLkZ_6420023</shortDescription>
+        <value>Thank you for using AAA Smart Home self scheduler. Please follow the prompts to schedule your appointment.</value>
+    </labels>
+    <labels>
+        <fullName>Record_Default_owner_id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Default owner id</shortDescription>
+        <value>0056g00000282F2</value>
+    </labels>
+    <labels>
+        <fullName>Scheduling_Policy_Id</fullName>
+        <categories>Self Scheduling Policy Id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Self Scheduling Policy Id</shortDescription>
+        <value>a2R4v0000041jHBEAY</value>
+    </labels>
+    <labels>
+        <fullName>Work_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Type Id</shortDescription>
+        <value>xxx</value>
+    </labels>
+</CustomLabels>
