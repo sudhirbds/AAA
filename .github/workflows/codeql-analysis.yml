@@ -56,6 +56,6 @@ jobs:
     - run: rm -rf dist # We want code scanning to analyze lib instead (individual .js files)
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v1
-    - name: use Dependency 
-      uses: github/vercel/ncc/src/ncc/cli.js@v1
+      uses: github/codeql-action/analyze@v2.1.11
+   # - name: use Dependency 
+   #   uses: github/vercel/ncc/src/ncc/cli.js@v1
