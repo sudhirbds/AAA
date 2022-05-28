@@ -1,11 +1,11 @@
 name: Sample Workflow
 on:
   push:
-    branches: [ Dev ]
+    branches: [ feature ]
     paths:
             - 'force-app/**'
   pull_request:
-    branches: [ Dev ]
+    branches: [ feature ]
     paths:
             - 'force-app/**'         
 
