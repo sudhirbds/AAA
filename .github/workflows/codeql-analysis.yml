@@ -17,6 +17,7 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ main ]
+    
   schedule:
     - cron: '28 9 * * 0'
 
@@ -33,7 +34,7 @@ jobs:
       fail-fast: false
       matrix:
         language: [ 'javascript' ]
-        # CodeQL supports [ 'csharp', 'xml', 'java', 'javascript', 'Apex' ]
+        # CodeQL supports [ 'csharp', 'xml', 'java', 'javascript', 'apex' ]
         # Learn more:
         # https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changing-the-languages-that-are-analyzed
 
@@ -42,17 +43,19 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1
+      uses: github/codeql-action/init@v2.1.11
       with:
         languages: ${{ matrix.language }}
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
         # queries: ./path/to/local/query, your-org/your-repo/queries@main
-
-    - run: npm ci
-    - run: npm run build
-    - run: rm -rf dist # We want code scanning to analyze lib instead (individual .js files)
+    #- run: npm i -g @zeit/ncc
+    #- run: npm ci
+    #- run: npm run build
+    #- run: rm -rf dist # We want code scanning to analyze lib instead (individual .js files)
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v1
+      uses: github/codeql-action/analyze@v2.1.11
+   # - name: use Dependency 
+   #   uses: github/vercel/ncc/src/ncc/cli.js@v1
