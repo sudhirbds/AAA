@@ -20,6 +20,8 @@
                     if (Date.now() > end) {
                         return clearInterval(interval);
                     }
+                    // Testing
+
                     
                     confetti({
                         particleCount : 450,
