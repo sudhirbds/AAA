@@ -15,7 +15,7 @@
             "duration": duration,
             "mode": mode,
             "key": key
-            //Testing
+            //Testing sample file
         });
         toastEvent.fire();
     },
